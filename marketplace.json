@@ -1,0 +1,35 @@
+{
+  "name": "client-side-analysis",
+  "description": "Client-side vulnerability analysis plugin for bug bounty hunting. Multi-agent pipeline that finds, tests, validates, and reports client-side bugs in JavaScript applications.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "client-side-analysis",
+      "description": "Client-side vulnerability analysis plugin for bug bounty hunting",
+      "commands": [
+        "csa",
+        "csa-recon",
+        "csa-solve",
+        "csa-report"
+      ],
+      "skills": [
+        "xss",
+        "prototype-pollution",
+        "open-redirect",
+        "csrf",
+        "postmessage-abuse",
+        "dom-clobbering",
+        "css-injection",
+        "cspt"
+      ],
+      "agents": [
+        "creative-solver",
+        "feature-flag-hunter",
+        "report-generator",
+        "route-scanner",
+        "source-identifier",
+        "validation-gate"
+      ]
+    }
+  ]
+}
