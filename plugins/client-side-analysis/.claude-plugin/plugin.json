@@ -23,8 +23,5 @@
     "cspt",
     "javascript",
     "dom-xss"
-  ],
-  "commands": "./commands/",
-  "agents": "./agents/",
-  "skills": "./skills/"
+  ]
 }
