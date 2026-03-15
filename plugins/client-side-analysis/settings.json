@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allowedTools": [
+      "Bash",
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "LS"
+    ]
+  },
+  "env": {
+    "CSA_OUTPUT_DIR": "security-review",
+    "CSA_REPORT_FORMAT": "markdown"
+  }
+}

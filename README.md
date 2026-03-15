@@ -85,13 +85,21 @@ All output goes to `./security-review/`:
 
 ## Installation
 
-```
-/plugin install client-side-analysis
+Add the marketplace to your Claude Code settings, then install:
+
+```json
+// In ~/.claude/settings.json → extraKnownMarketplaces:
+"0xdead4f-plugins": {
+  "source": {
+    "source": "github",
+    "repo": "0xdead4f/client-side-analyzer-claude-plugin"
+  }
+}
 ```
 
-Or manually:
+Then:
 ```
-cp -r client-side-analysis/ .claude/plugins/
+/plugin install client-side-analysis@0xdead4f-plugins
 ```
 
 ## Token management

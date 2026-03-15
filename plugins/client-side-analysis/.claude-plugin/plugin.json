@@ -1,0 +1,30 @@
+{
+  "name": "client-side-analysis",
+  "version": "1.0.0",
+  "description": "Client-side vulnerability analysis plugin for bug bounty hunting. Multi-agent pipeline that finds, tests, validates, and reports client-side bugs in JavaScript applications. Covers XSS, prototype pollution, open redirect, CSRF, postMessage abuse, DOM clobbering, CSS injection, and CSPT.",
+  "author": {
+    "name": "0xdead4f",
+    "url": "https://github.com/0xdead4f"
+  },
+  "homepage": "https://github.com/0xdead4f/client-side-analyzer-claude-plugin",
+  "repository": "https://github.com/0xdead4f/client-side-analyzer-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "bug-bounty",
+    "client-side",
+    "xss",
+    "prototype-pollution",
+    "open-redirect",
+    "csrf",
+    "postmessage",
+    "dom-clobbering",
+    "css-injection",
+    "cspt",
+    "javascript",
+    "dom-xss"
+  ],
+  "commands": "./commands/",
+  "agents": "./agents/",
+  "skills": "./skills/"
+}
