@@ -23,5 +23,29 @@
     "cspt",
     "javascript",
     "dom-xss"
+  ],
+  "commands": [
+    "./commands/csa.md",
+    "./commands/csa-recon.md",
+    "./commands/csa-report.md",
+    "./commands/csa-solve.md"
+  ],
+  "agents": [
+    "./agents/creative-solver.md",
+    "./agents/feature-flag-hunter.md",
+    "./agents/report-generator.md",
+    "./agents/route-scanner.md",
+    "./agents/source-identifier.md",
+    "./agents/validation-gate.md"
+  ],
+  "skills": [
+    "./skills/xss/SKILL.md",
+    "./skills/prototype-pollution/SKILL.md",
+    "./skills/open-redirect/SKILL.md",
+    "./skills/csrf/SKILL.md",
+    "./skills/postmessage-abuse/SKILL.md",
+    "./skills/dom-clobbering/SKILL.md",
+    "./skills/css-injection/SKILL.md",
+    "./skills/cspt/SKILL.md"
   ]
 }
